@@ -1,0 +1,24 @@
+.panier-container{
+    margin: 20px 25px;
+}
+
+.panier-element{
+    display: flex;
+    align-items: center;
+}
+
+.panier-element button{
+    margin: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: darkseagreen;
+    border-radius: 5px ;
+    border: none;
+    transition: 0.2s;
+}
+
+.panier-element button:hover{
+    background-color: darkred;
+    color: white;
+}
